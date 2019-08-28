@@ -18,11 +18,25 @@ brew untap tkareine/chnode
 
 ## Testing formula
 
+Install tap from local clone of this repository, install and test the
+formula, and uninstall the formula and tap:
+
 ``` shell
-brew tap tkareine/chnode
-brew audit --strict --online chnode
-brew install tkareine/chnode/chnode
-brew test tkareine/chnode/chnode
+brew tap tkareine/chnode-local ~/Projects/homebrew-chnode
+brew audit --strict --online tkareine/chnode-local/chnode
+brew install tkareine/chnode-local/chnode
+brew test tkareine/chnode-local/chnode
+brew uninstall tkareine/chnode-local/chnode
+brew untap tkareine/chnode-local
+```
+
+Update the master branch of the tap if the upstream repository
+(`~/Projects/homebrew-chnode` above) changed:
+
+``` shell
+cd "$(brew --prefix)"/Library/Taps/tkareine/homebrew-chnode-local
+git fetch origin master
+git reset --hard origin/master
 ```
 
 ## License
