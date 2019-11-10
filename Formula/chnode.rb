@@ -2,8 +2,8 @@ class Chnode < Formula
   desc "Changes shell's current Node.js"
   homepage "https://github.com/tkareine/chnode"
 
-  url "https://github.com/tkareine/chnode/archive/v0.3.0.tar.gz"
-  sha256 "be06431f8f892fbe9c58ce3702cf0cad8fafbfba74b354233203350046eac11a"
+  url "https://github.com/tkareine/chnode/archive/v0.3.1.tar.gz"
+  sha256 "aad8186cb803d8a7157f0d23113aeacac791adf63cec8180daa2693a8d30974e"
 
   head "https://github.com/tkareine/chnode.git"
 
