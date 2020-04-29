@@ -31,7 +31,7 @@ brew untap tkareine/chnode-local
 ```
 
 Update the master branch of the tap if the upstream repository
-(`~/Projects/homebrew-chnode` above) changed:
+(`~/Projects/homebrew-chnode` above) has changed:
 
 ``` shell
 cd "$(brew --prefix)"/Library/Taps/tkareine/homebrew-chnode-local
