@@ -3,7 +3,7 @@ class Chnode < Formula
   homepage "https://github.com/tkareine/chnode"
   url "https://github.com/tkareine/chnode/archive/v0.4.0.tar.gz"
   sha256 "fab90b5b26aad5b1c76ff4e8c72e29b09bcdf326647a9e712cdba92f44a90af5"
-  head "https://github.com/tkareine/chnode.git"
+  head "https://github.com/tkareine/chnode.git", branch: "master"
 
   def install
     system "make", "install", "PREFIX=#{prefix}"
