@@ -34,7 +34,7 @@ Update the master branch of the tap if the upstream repository
 (`~/Projects/homebrew-chnode` above) has changed:
 
 ``` shell
-cd "$(brew --prefix)"/Library/Taps/tkareine/homebrew-chnode-local
+cd "$(brew --prefix)"/Homebrew/Library/Taps/tkareine/homebrew-chnode-local
 git fetch origin master
 git reset --hard origin/master
 ```
