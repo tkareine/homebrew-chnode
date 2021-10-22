@@ -5,8 +5,6 @@ class Chnode < Formula
   sha256 "fab90b5b26aad5b1c76ff4e8c72e29b09bcdf326647a9e712cdba92f44a90af5"
   head "https://github.com/tkareine/chnode.git"
 
-  bottle :unneeded
-
   def install
     system "make", "install", "PREFIX=#{prefix}"
   end
