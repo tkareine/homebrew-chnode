@@ -3,8 +3,8 @@
 class Chnode < Formula
   desc "Changes shell's current Node.js"
   homepage "https://github.com/tkareine/chnode"
-  url "https://github.com/tkareine/chnode/archive/refs/tags/v0.4.2.tar.gz"
-  sha256 "b79548a2c94678f448fe35aabcfb406c0c826bd3f830c1d1b54dba8e106c5121"
+  url "https://github.com/tkareine/chnode/archive/refs/tags/v0.4.3.tar.gz"
+  sha256 "0274b6a80fbb060eab0252e434c437a666edb621877db96854ca615ea54fd754"
   license "MIT"
   head "https://github.com/tkareine/chnode.git", branch: "master"
 
